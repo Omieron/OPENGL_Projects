@@ -1,0 +1,35 @@
+﻿  Source.cpp
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(101,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(116,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(117,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(117,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(130,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(131,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(131,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(139,67): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(139,41): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(148,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(148,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(167,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(167,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(183,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(183,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(197,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(274,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(274,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(276,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(276,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(278,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(278,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(280,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(280,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(304,26): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(313,36): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(313,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(313,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(314,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(317,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(529,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(641,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Source.cpp(645,35): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Arrow&Shadow.vcxproj -> C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Arrow&Shadow\Debug\Arrow&Shadow.exe
