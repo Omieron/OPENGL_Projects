@@ -1,0 +1,23 @@
+﻿  Source.cpp
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(81,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(82,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(82,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(95,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(96,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(96,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(105,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(105,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(124,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(124,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(140,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(140,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(170,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(170,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(176,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(176,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(254,30): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(254,24): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(254,18): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(521,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Source.cpp(525,35): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Ballon&Arrow.vcxproj -> C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\Ballon&Arrow\Debug\Ballon&Arrow.exe

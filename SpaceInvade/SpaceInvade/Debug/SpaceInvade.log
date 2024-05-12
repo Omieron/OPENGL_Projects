@@ -1,0 +1,21 @@
+﻿  Source.cpp
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(74,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(75,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(75,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(88,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(89,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(89,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(98,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(98,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(117,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(117,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(133,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(133,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(148,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(148,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(148,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(148,13): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(1689,20): warning C4552: '!=': result of expression not used
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(1906,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Source.cpp(1910,35): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  SpaceInvade.vcxproj -> C:\Users\asilo\OneDrive\Masaüstü\Coding\Semester-2\Ctis-164\Specials\SpaceInvade\Debug\SpaceInvade.exe
