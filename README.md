@@ -30,71 +30,79 @@ This repository contains 4 interactive 2D games developed as part of **CTIS164 -
 
 ✅ **Cross-Platform:** Code is written to run on both Windows and macOS.
 
+📈 **Learning Journey:** The games are ordered chronologically, showing progression from basic to advanced techniques as knowledge grew throughout the semester.
+
 ---
 
 ## 🕹️ Games
 
-### 1️⃣ Arrow & Shadow
-
-<div align="center">
-<img src="screenshots/arrow_shadow.png" alt="Arrow & Shadow" width="80%">
-</div>
-
-**Description:** Archery target practice game. Shoot arrows to hit randomly positioned targets.
-
-| Features | Controls |
-|----------|----------|
-| 🎯 Dynamic target system | `Mouse Click` - Shoot arrow |
-| 🌙 Night theme with shadow effects | `ESC` - Exit |
-| 🎨 Color reflection effects | |
-
----
-
-### 2️⃣ Balloon & Arrow
-
-<div align="center">
-<img src="screenshots/ballon_arrow.png" alt="Balloon & Arrow" width="80%">
-</div>
-
-**Description:** Pop rising balloons with orbiting arrows. The arrow follows an orbital trajectory.
-
-| Features | Controls |
-|----------|----------|
-| 🎈 Colorful balloon system | `Mouse Click` - Change color |
-| 🔄 Orbital arrow movement | `ESC` - Exit |
-| 📈 Score system | |
-
----
-
-### 3️⃣ Space Invade
-
-<div align="center">
-<img src="screenshots/space_invade.png" alt="Space Invade" width="80%">
-</div>
-
-**Description:** Classic Space Invaders style arcade shooter. Defend against waves of alien invaders!
-
-| Features | Controls |
-|----------|----------|
-| 👾 Enemy alien waves | `← →` - Move |
-| 🚀 Player spaceship | `Space` - Fire |
-| 💥 Explosion effects | `ESC` - Exit |
-
----
-
-### 4️⃣ Tank vs Helicopter
+### 1️⃣ Tank vs Helicopter *(First Project)*
 
 <div align="center">
 <img src="screenshots/tank_helicopter.png" alt="Tank vs Helicopter" width="80%">
 </div>
 
-**Description:** Ground vs air combat game. Take down the helicopter before time runs out!
+**Description:** Ground vs air combat game. My first OpenGL game attempt - take down the helicopter before time runs out!
 
 | Features | Controls |
 |----------|----------|
-| 🚁 Animated helicopter | `← → ↑ ↓` - Move |
+| 🚁 Animated helicopter with rotating blades | `← → ↑ ↓` - Move |
 | ⏱️ Countdown timer | `R` - Restart |
-| 💣 Explosion effects | `ESC` - Exit |
+| 🏙️ City background with buildings | `ESC` - Exit |
+| 💣 Projectile system | |
+
+> *"OMER FARUK ASIL FIRST GAME ATTEMPT"* - as shown in the game
+
+---
+
+### 2️⃣ Space Invade *(Second Project)*
+
+<div align="center">
+<img src="screenshots/space_invade.png" alt="Space Invade" width="80%">
+</div>
+
+**Description:** Classic Space Invaders style arcade shooter. More complex enemy patterns and improved graphics.
+
+| Features | Controls |
+|----------|----------|
+| 👾 Multiple enemy alien types | `← →` - Move |
+| 🚀 Detailed player spaceship | `Space` - Fire |
+| 💥 Explosion & bomb effects | `ESC` - Exit |
+| 🎯 Wave-based gameplay | |
+
+---
+
+### 3️⃣ Balloon & Arrow *(Third Project)*
+
+<div align="center">
+<img src="screenshots/ballon_arrow.png" alt="Balloon & Arrow" width="80%">
+</div>
+
+**Description:** Pop rising balloons with orbiting arrows. Introduced physics-based orbital mechanics.
+
+| Features | Controls |
+|----------|----------|
+| 🎈 Colorful balloon system | `Mouse Click` - Change color |
+| 🔄 Orbital arrow trajectory | `ESC` - Exit |
+| 📈 Score tracking | |
+| 🌞 Dynamic sun animation | |
+
+---
+
+### 4️⃣ Arrow & Shadow *(Final Project)*
+
+<div align="center">
+<img src="screenshots/arrow_shadow.png" alt="Arrow & Shadow" width="80%">
+</div>
+
+**Description:** Archery target practice with advanced lighting effects. The most sophisticated project showcasing accumulated knowledge.
+
+| Features | Controls |
+|----------|----------|
+| 🎯 Dynamic target system | `Mouse Click` - Shoot arrow |
+| 🌙 Night theme with realistic shadows | `ESC` - Exit |
+| 🎨 Color reflection & lighting effects | |
+| ✨ Arrow disappear animation on target hit | |
 
 ---
 
@@ -111,10 +119,10 @@ cd OPENGL_Projects
 
 # 3. Build and run
 make all
-./arrow_shadow      # or: make run1
-./ballon_arrow      # or: make run2
-./space_invade      # or: make run3
 ./tank_helicopter   # or: make run4
+./space_invade      # or: make run3
+./ballon_arrow      # or: make run2
+./arrow_shadow      # or: make run1
 ```
 
 ### Windows
@@ -198,22 +206,31 @@ The code uses preprocessor directives to work on both Windows and macOS:
 - **Math:** Trigonometric functions (sin, cos) for movement
 - **Collision Detection:** Bounding box / Distance-based collision
 
+### Learning Progression
+
+| Project | New Concepts Learned |
+|---------|---------------------|
+| Tank vs Helicopter | Basic shapes, animation, timer system |
+| Space Invade | Multiple entities, arrays, game states |
+| Balloon & Arrow | Orbital mechanics, physics simulation |
+| Arrow & Shadow | Lighting effects, shadows, advanced rendering |
+
 ---
 
 ## 📁 Project Structure
 
 ```
 OPENGL_Projects/
-├── Arrow&Shadow/
-│   ├── Source.cpp          # Main source code
-│   └── vec.h               # Vector helper library
-├── Ballon&Arrow/
+├── TankvsHelicopter/       # Project 1 - First attempt
+│   └── Source.cpp
+├── SpaceInvade/            # Project 2
+│   └── Source.cpp
+├── Ballon&Arrow/           # Project 3
 │   ├── Source.cpp
 │   └── vec.h
-├── SpaceInvade/
-│   └── Source.cpp
-├── TankvsHelicopter/
-│   └── Source.cpp
+├── Arrow&Shadow/           # Project 4 - Final project
+│   ├── Source.cpp
+│   └── vec.h
 ├── screenshots/            # Game screenshots
 ├── Makefile               # Build script for macOS/Linux
 ├── .gitignore
