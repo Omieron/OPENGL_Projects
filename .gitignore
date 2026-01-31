@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+*.dSYM/
+
+# Windows Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.log
+*.tlog/
+*.lastbuildstate
+*.pch
+*.ipch
+ipch/
+*.aps
+*.ncb
+.vs/
+
+# Compiled binaries (Mac)
+arrow_shadow
+ballon_arrow
+space_invade
+tank_helicopter
+
+# Backup files
+*.bak
+*.orig
+*~
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace

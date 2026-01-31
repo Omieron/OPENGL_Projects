@@ -7,7 +7,11 @@ ADDITIONAL FEATURES:  I added color reflection and when target disappear, arrow 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
 #endif
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -160,7 +164,7 @@ void vprint(int x, int y, void* font, const char* string, ...)
     va_list ap;
     va_start(ap, string);
     char str[1024];
-    vsprintf_s(str, string, ap);
+    vsprintf(str, string, ap);
     va_end(ap);
 
     int len, i;
@@ -177,7 +181,7 @@ void vprint2(int x, int y, float size, const char* string, ...) {
     va_list ap;
     va_start(ap, string);
     char str[1024];
-    vsprintf_s(str, string, ap);
+    vsprintf(str, string, ap);
     va_end(ap);
     glPushMatrix();
     glTranslatef(x, y, 0);
@@ -301,7 +305,7 @@ void display() {
         arrow(OK);
 
     for (int x = -700; x <= 700; x++) {
-        vertex_t P = { { x, -100 }, { 0, 1 } };
+        vertex_t P = { { (double)x, -100.0 }, { 0, 1 } };
 
         colour_t res = { 0.34, 0.1, 0.01 };
 
@@ -642,7 +646,7 @@ void Init() {
 
 }
 
-void main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);

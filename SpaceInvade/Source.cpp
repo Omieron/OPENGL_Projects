@@ -9,7 +9,11 @@ ADDITIONAL FEATURES:
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
 #endif
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
 #include <GL/glut.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -110,7 +114,7 @@ void vprint(int x, int y, void* font, const char* string, ...)
     va_list ap;
     va_start(ap, string);
     char str[1024];
-    vsprintf_s(str, string, ap);
+    vsprintf(str, string, ap);
     va_end(ap);
 
     int len, i;
@@ -127,7 +131,7 @@ void vprint2(int x, int y, float size, const char* string, ...) {
     va_list ap;
     va_start(ap, string);
     char str[1024];
-    vsprintf_s(str, string, ap);
+    vsprintf(str, string, ap);
     va_end(ap);
     glPushMatrix();
     glTranslatef(x, y, 0);
@@ -1907,7 +1911,7 @@ void Init() {
 
 }
 
-void main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
 
 
     glutInit(&argc, argv);
